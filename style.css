@@ -1,0 +1,316 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* Global Section Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.donate-btn {
+    width: 160px;
+    height: 56px;
+    background-color: #FF5959;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.donate-btn a {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.header-info h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #121212;
+}
+
+.header-info p {
+    font-size: 18px;
+    color: #707070;
+    width: 690px;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+/* Global Section End */
+
+
+/* Home Section Start */
+
+#home {
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%), url(./images/home-background.png);
+    height: 670px;
+}
+
+#home .home-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 182px;
+}
+
+#home .home-wrapper h1 {
+    width: 900px;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+#home .home-wrapper p {
+    width: 690px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+#home .home-wrapper .donate-btn {
+    margin-top: 40px;
+}
+
+/* Home Section End */
+
+
+/* Donation Section Start */
+
+#donation .donation-wrapper .fixed-donation-amount {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: 45px auto;
+}
+
+#donation .donation-wrapper .fixed-donation-amount .amount-of-money {
+    width: 135px;
+    height: 125px;
+    background-color: #FAFAFA;
+    ;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#donation .donation-wrapper .fixed-donation-amount #orange-background {
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+#donation .donation-wrapper .fixed-donation-amount #orange-background h4 {
+    color: #FF5959;
+}
+
+#donation .donation-wrapper .fixed-donation-amount .amount-of-money h4 {
+    font-size: 30px;
+    color: #707070;
+}
+
+#donation .donation-wrapper .other-donation-amount {
+    margin-top: 60px;
+    margin-left: 295px;
+}
+
+#donation .donation-wrapper .other-donation-amount input {
+    width: 73%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    outline: none;
+    text-align: center;
+
+}
+
+#donation .donation-wrapper .other-donation-amount ::placeholder {
+    color: #B3B3B3;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+#donation .donation-wrapper .donate-btn {
+    margin-left: 600px;
+    margin-top: 27px;
+}
+
+/* Donation Section End */
+
+
+/* Our Donate Plan Section Start */
+
+#donate-plan .donate-plan-wrapper .our-plans {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan {
+    width: 360px;
+    height: 352px;
+    border-radius: 5px;
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan img {
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan h4 {
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan p {
+    width: 85%;
+    font-size: 13px;
+    color: #707070;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan.plan-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan.plan-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+#donate-plan .donate-plan-wrapper .our-plans .plan.plan-3 {
+    background: #FFF4D6;
+}
+
+/* Our Donate Plan Section End */
+
+
+/* Our Recent Works Section Start */
+
+#recent-works .recent-works-wrapper .our-works .works {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: 45px auto;
+}
+
+#recent-works .recent-works-wrapper .our-works .works img {
+    width: 360px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+/* Our Recent Works Section End */
+
+
+/* Update Section Start */
+
+#update .update-wrapper .subscribe-wrapper {
+    width: 810px;
+    height: 200px;
+    background-color: #FFF4D6;
+    margin: 45px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#update .update-wrapper .subscribe-wrapper .subscribe {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#update .update-wrapper .subscribe-wrapper .subscribe input {
+    background-color: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+}
+
+#update .update-wrapper .subscribe-wrapper .subscribe ::placeholder {
+    padding-left: 15px;
+    color: #AA9F9F;
+    font-size: 16px;
+}
+
+#update .update-wrapper .subscribe-wrapper .subscribe .btn {
+    background-color: #FF5959;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+#update .update-wrapper .subscribe-wrapper .subscribe .btn a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Update Section End */
+
+
+/* Footer Section Start */
+
+footer {
+    margin-top: 130px;
+    background-color: #0B0D17;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-info {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer #footer-info h4 {
+    font-family: 'Lobster', cursive;
+    color: #FF5959;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+footer #footer-info h6 {
+    color: #D9DBE1;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+/* Footer Section End */
